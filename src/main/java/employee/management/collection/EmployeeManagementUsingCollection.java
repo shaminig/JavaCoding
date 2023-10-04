@@ -2,8 +2,13 @@ package employee.management.collection;
 
 import java.util.*;
 
-public class CrudDemo {
+public class EmployeeManagementUsingCollection {
     public static void main(String[] args) {
+        EmployeeManagementUsingCollection emc = new EmployeeManagementUsingCollection();
+        emc.employeeMangement();
+    }
+
+    public void employeeMangement(){
         Collection<Employee> empList = new ArrayList<Employee>();
         Scanner s = new Scanner(System.in);
         Scanner s1 = new Scanner(System.in);
